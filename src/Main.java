@@ -13,8 +13,12 @@ public class Main {
 
         PC thePC = new PC(theCase, theMonitor, theMotherboard);
 
-        thePC.getMonitor().drawPixelAt(1500,1200,"blue");
+        //get... methods no longer working for those methods have been removed (commented out)
+        /*thePC.getMonitor().drawPixelAt(1500,1200,"blue");
         thePC.getMotherboard().loadProgram("Fedora v.12.4");
-        thePC.getTheCase().presPowerButton();
+        thePC.getTheCase().pressPowerButton();
+        */
+
+        thePC.powerUp();
     }
 }
