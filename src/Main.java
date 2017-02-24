@@ -20,5 +20,17 @@ public class Main {
         */
 
         thePC.powerUp();
+
+        //doing the house and bedroom test
+        Door door = new Door("PineDoor");
+
+        Furniture furniture = new Furniture("Sofa");
+
+        NumWindow windowNum = new NumWindow(5);
+
+        Bedroom mainBedroom = new Bedroom(mainBedroom = null, "King Size", 3, true, 8.0);
+        mainBedroom.make();
+
+
     }
 }
